@@ -46,6 +46,26 @@
       content: "";
       margin: 20px 0;
     }
+
+    details {
+      width: fit-content;
+      margin: auto;
+      border: 2px solid;
+      border-color: #FFFFFF;
+      border-radius: 14px;
+      padding: 10px;
+    }
+
+    summary {
+      cursor: pointer;
+    }
+
+    .sum {
+      font-size: 1.25rem;
+      margin-block: 0;
+      display: inline-block;
+      margin-left: 6px;
+    }
   </style>
 
 </head>
@@ -60,7 +80,13 @@
   </header>
 
   <main style="margin: 0px 20px">
-    <a href="./docs/Open-Items_Lucas_JUNG.pdf" target="_blank">2024_01 - Open Items EPFL Bachelor Project</a><br>
+
+    <details open>
+      <summary><p class="sum">Projects</p></summary><br>
+      <a href="./docs/projects/2024_01-Open_Items.pdf" target="_blank">2024_01 - EPFL Bachelor Project - Open-Items</a>
+      <a href="./docs/projects/2019_10-TM_3M6-AI_Video_Games.pdf" target="_blank">2019_10 - TM Burier 3M6 - AI Learns to Play Video Games</a><br>
+    </details>
+
   </main>
 
 </body>
